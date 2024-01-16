@@ -1,0 +1,607 @@
+.elementor-28 .elementor-element.elementor-element-c4ea9f1 {
+    --display: flex;
+    --min-height: 98vh;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --align-items: stretch;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 40px;
+    --padding-inline-end: 40px;
+}
+
+.elementor-28 .elementor-element.elementor-element-c4ea9f1:not(.elementor-motion-effects-element-type-background),
+.elementor-28 .elementor-element.elementor-element-c4ea9f1>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-image: url("https://dev-kyoto-comic.pantheonsite.io/wp-content/uploads/2021/04/book-store-hero-bg-img.svg");
+    background-position: 50vw 0px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.elementor-28 .elementor-element.elementor-element-c4ea9f1,
+.elementor-28 .elementor-element.elementor-element-c4ea9f1::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-28 .elementor-element.elementor-element-03f510f {
+    --display: flex;
+    --justify-content: center;
+    --gap: 32px 32px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-5a88d73 .elementor-heading-title {
+    color: var( --e-global-color-astglobalcolor0);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.elementor-28 .elementor-element.elementor-element-5a88d73>.elementor-widget-container {
+    padding: 0px 0px 16px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-4a5b99a>.elementor-widget-container {
+    padding: 0px 128px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-95cecc3 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --align-items: stretch;
+    --gap: 10px 10px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-ac72ace {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: initial;
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --gap: 14px 14px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-db0469c .elementor-button {
+    fill: var( --e-global-color-astglobalcolor4);
+    color: var( --e-global-color-astglobalcolor4);
+    background-color: var( --e-global-color-astglobalcolor0);
+}
+
+.elementor-28 .elementor-element.elementor-element-db0469c .elementor-button:hover,
+.elementor-28 .elementor-element.elementor-element-db0469c .elementor-button:focus {
+    background-color: var( --e-global-color-astglobalcolor1);
+}
+
+.elementor-28 .elementor-element.elementor-element-db0469c>.elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-e43995b>.elementor-widget-container {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-d9a8d1b {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-block-start: 96px;
+    --padding-block-end: 96px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-8e704e2 {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --align-items: stretch;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    --padding-block-start: 104px;
+    --padding-block-end: 104px;
+    --padding-inline-start: 40px;
+    --padding-inline-end: 40px;
+}
+
+.elementor-28 .elementor-element.elementor-element-8e704e2,
+.elementor-28 .elementor-element.elementor-element-8e704e2::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-28 .elementor-element.elementor-element-85346da {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-9c77052 {
+    text-align: center;
+}
+
+.elementor-28 .elementor-element.elementor-element-775c6ed {
+    text-align: center;
+}
+
+.elementor-28 .elementor-element.elementor-element-775c6ed>.elementor-widget-container {
+    padding: 0px 256px 0px 256px;
+}
+
+.elementor-28 .elementor-element.elementor-element-840e24d>.elementor-widget-container {
+    padding: 16px 0px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-30f694a {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --align-items: stretch;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    --padding-block-start: 104px;
+    --padding-block-end: 104px;
+    --padding-inline-start: 40px;
+    --padding-inline-end: 40px;
+}
+
+.elementor-28 .elementor-element.elementor-element-30f694a:not(.elementor-motion-effects-element-type-background),
+.elementor-28 .elementor-element.elementor-element-30f694a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: var( --e-global-color-astglobalcolor4);
+}
+
+.elementor-28 .elementor-element.elementor-element-30f694a,
+.elementor-28 .elementor-element.elementor-element-30f694a::before {
+    --border-transition: 0.3s;
+}
+
+.elementor-28 .elementor-element.elementor-element-af82b68 {
+    --display: flex;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-54f3bd9 {
+    text-align: center;
+}
+
+.elementor-28 .elementor-element.elementor-element-961758d {
+    text-align: center;
+}
+
+.elementor-28 .elementor-element.elementor-element-961758d>.elementor-widget-container {
+    padding: 0px 256px 0px 256px;
+}
+
+.elementor-28 .elementor-element.elementor-element-269257c {
+    --display: flex;
+    --flex-direction: row;
+    --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+    --container-widget-height: 100%;
+    --container-widget-flex-grow: 1;
+    --container-widget-align-self: stretch;
+    --align-items: stretch;
+    --gap: 0px 0px;
+    --background-transition: 0.3s;
+    --margin-block-start: 16px;
+    --margin-block-end: 0px;
+    --margin-inline-start: 0px;
+    --margin-inline-end: 0px;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-9c55f65 {
+    --display: flex;
+    --gap: 16px 16px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 0px;
+    --padding-inline-end: 36px;
+}
+
+.elementor-28 .elementor-element.elementor-element-684345a>.elementor-widget-container {
+    padding: 0px 0px 8px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-edaa30b .elementor-button .elementor-align-icon-right {
+    margin-left: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-edaa30b .elementor-button .elementor-align-icon-left {
+    margin-right: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-edaa30b .elementor-button:hover,
+.elementor-28 .elementor-element.elementor-element-edaa30b .elementor-button:focus {
+    color: #25272D;
+    background-color: #00000000;
+}
+
+.elementor-28 .elementor-element.elementor-element-edaa30b .elementor-button:hover svg,
+.elementor-28 .elementor-element.elementor-element-edaa30b .elementor-button:focus svg {
+    fill: #25272D;
+}
+
+.elementor-28 .elementor-element.elementor-element-edaa30b .elementor-button {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-8a07147 {
+    --display: flex;
+    --gap: 16px 16px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 12px;
+    --padding-inline-end: 24px;
+}
+
+.elementor-28 .elementor-element.elementor-element-d6b4120>.elementor-widget-container {
+    padding: 0px 0px 8px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-3a7914e .elementor-button .elementor-align-icon-right {
+    margin-left: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-3a7914e .elementor-button .elementor-align-icon-left {
+    margin-right: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-3a7914e .elementor-button:hover,
+.elementor-28 .elementor-element.elementor-element-3a7914e .elementor-button:focus {
+    color: #25272D;
+    background-color: #00000000;
+}
+
+.elementor-28 .elementor-element.elementor-element-3a7914e .elementor-button:hover svg,
+.elementor-28 .elementor-element.elementor-element-3a7914e .elementor-button:focus svg {
+    fill: #25272D;
+}
+
+.elementor-28 .elementor-element.elementor-element-3a7914e .elementor-button {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-cbfaa3e {
+    --display: flex;
+    --gap: 16px 16px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 24px;
+    --padding-inline-end: 12px;
+}
+
+.elementor-28 .elementor-element.elementor-element-9276e6b>.elementor-widget-container {
+    padding: 0px 0px 8px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-729df41 .elementor-button .elementor-align-icon-right {
+    margin-left: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-729df41 .elementor-button .elementor-align-icon-left {
+    margin-right: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-729df41 .elementor-button:hover,
+.elementor-28 .elementor-element.elementor-element-729df41 .elementor-button:focus {
+    color: #25272D;
+    background-color: #00000000;
+}
+
+.elementor-28 .elementor-element.elementor-element-729df41 .elementor-button:hover svg,
+.elementor-28 .elementor-element.elementor-element-729df41 .elementor-button:focus svg {
+    fill: #25272D;
+}
+
+.elementor-28 .elementor-element.elementor-element-729df41 .elementor-button {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-e3d5d15 {
+    --display: flex;
+    --gap: 16px 16px;
+    --background-transition: 0.3s;
+    --padding-block-start: 0px;
+    --padding-block-end: 0px;
+    --padding-inline-start: 36px;
+    --padding-inline-end: 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-b077e8d>.elementor-widget-container {
+    padding: 0px 0px 8px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-d3329b6 .elementor-button .elementor-align-icon-right {
+    margin-left: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-d3329b6 .elementor-button .elementor-align-icon-left {
+    margin-right: 8px;
+}
+
+.elementor-28 .elementor-element.elementor-element-d3329b6 .elementor-button:hover,
+.elementor-28 .elementor-element.elementor-element-d3329b6 .elementor-button:focus {
+    color: #25272D;
+    background-color: #00000000;
+}
+
+.elementor-28 .elementor-element.elementor-element-d3329b6 .elementor-button:hover svg,
+.elementor-28 .elementor-element.elementor-element-d3329b6 .elementor-button:focus svg {
+    fill: #25272D;
+}
+
+.elementor-28 .elementor-element.elementor-element-d3329b6 .elementor-button {
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-28 .elementor-element.elementor-element-31ffa7b {
+    --display: flex;
+    --background-transition: 0.3s;
+}
+
+@media(min-width:768px) {
+    .elementor-28 .elementor-element.elementor-element-03f510f {
+        --width: 50%;
+    }
+    .elementor-28 .elementor-element.elementor-element-d9a8d1b {
+        --width: 50%;
+    }
+}
+
+@media(max-width:1024px) {
+    .elementor-28 .elementor-element.elementor-element-c4ea9f1 {
+        --min-height: 60vh;
+        --align-items: center;
+        --container-widget-width: calc( ( 1 - var( --container-widget-flex-grow)) * 100%);
+        --padding-block-start: 60px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 40px;
+        --padding-inline-end: 40px;
+    }
+    .elementor-28 .elementor-element.elementor-element-c4ea9f1:not(.elementor-motion-effects-element-type-background),
+    .elementor-28 .elementor-element.elementor-element-c4ea9f1>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-03f510f {
+        --gap: 24px 24px;
+    }
+    .elementor-28 .elementor-element.elementor-element-5a88d73>.elementor-widget-container {
+        padding: 0px 0px 16px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-c3690d3>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-4a5b99a>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-ac72ace {
+        --justify-content: flex-start;
+        --gap: 35px 35px;
+    }
+    .elementor-28 .elementor-element.elementor-element-d9a8d1b {
+        --padding-block-start: 0px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 48px;
+        --padding-inline-end: 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-8e704e2 {
+        --padding-block-start: 20px;
+        --padding-block-end: 80px;
+        --padding-inline-start: 40px;
+        --padding-inline-end: 40px;
+    }
+    .elementor-28 .elementor-element.elementor-element-775c6ed>.elementor-widget-container {
+        padding: 0px 48px 0px 48px;
+    }
+    .elementor-28 .elementor-element.elementor-element-30f694a {
+        --padding-block-start: 20px;
+        --padding-block-end: 80px;
+        --padding-inline-start: 40px;
+        --padding-inline-end: 40px;
+    }
+    .elementor-28 .elementor-element.elementor-element-961758d>.elementor-widget-container {
+        padding: 0px 48px 0px 48px;
+    }
+    .elementor-28 .elementor-element.elementor-element-9c55f65 {
+        --padding-block-start: 0px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 12px;
+    }
+    .elementor-28 .elementor-element.elementor-element-8a07147 {
+        --padding-block-start: 0px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 4px;
+        --padding-inline-end: 8px;
+    }
+    .elementor-28 .elementor-element.elementor-element-cbfaa3e {
+        --padding-block-start: 0px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 8px;
+        --padding-inline-end: 4px;
+    }
+    .elementor-28 .elementor-element.elementor-element-e3d5d15 {
+        --padding-block-start: 0px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 12px;
+        --padding-inline-end: 0px;
+    }
+}
+
+@media(max-width:767px) {
+    .elementor-28 .elementor-element.elementor-element-c4ea9f1 {
+        --flex-direction: column-reverse;
+        --container-widget-width: 100%;
+        --container-widget-height: initial;
+        --container-widget-flex-grow: 0;
+        --container-widget-align-self: initial;
+        --padding-block-start: 130px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-c4ea9f1:not(.elementor-motion-effects-element-type-background),
+    .elementor-28 .elementor-element.elementor-element-c4ea9f1>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-position: bottom right;
+    }
+    .elementor-28 .elementor-element.elementor-element-03f510f {
+        --padding-block-start: 0px;
+        --padding-block-end: 24px;
+        --padding-inline-start: 24px;
+        --padding-inline-end: 24px;
+    }
+    .elementor-28 .elementor-element.elementor-element-5a88d73 {
+        text-align: center;
+    }
+    .elementor-28 .elementor-element.elementor-element-5a88d73>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-c3690d3 {
+        text-align: center;
+    }
+    .elementor-28 .elementor-element.elementor-element-4a5b99a {
+        text-align: center;
+    }
+    .elementor-28 .elementor-element.elementor-element-4a5b99a>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-ac72ace {
+        --justify-content: center;
+        --gap: 72px 72px;
+    }
+    .elementor-28 .elementor-element.elementor-element-db0469c>.elementor-widget-container {
+        margin: 0px 0px 0px -12px;
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-db0469c {
+        width: initial;
+        max-width: initial;
+    }
+    .elementor-28 .elementor-element.elementor-element-e43995b>.elementor-widget-container {
+        margin: 0px 0px 0px -3px;
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-d9a8d1b {
+        --padding-block-start: 0px;
+        --padding-block-end: 24px;
+        --padding-inline-start: 48px;
+        --padding-inline-end: 48px;
+    }
+    .elementor-28 .elementor-element.elementor-element-d81619c {
+        text-align: center;
+    }
+    .elementor-28 .elementor-element.elementor-element-8e704e2 {
+        --padding-block-start: 48px;
+        --padding-block-end: 60px;
+        --padding-inline-start: 24px;
+        --padding-inline-end: 24px;
+    }
+    .elementor-28 .elementor-element.elementor-element-775c6ed>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-30f694a {
+        --padding-block-start: 30px;
+        --padding-block-end: 48px;
+        --padding-inline-start: 24px;
+        --padding-inline-end: 24px;
+    }
+    .elementor-28 .elementor-element.elementor-element-961758d>.elementor-widget-container {
+        padding: 0px 0px 0px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-9c55f65 {
+        --padding-block-start: 0px;
+        --padding-block-end: 40px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-684345a img {
+        width: 100%;
+    }
+    .elementor-28 .elementor-element.elementor-element-684345a>.elementor-widget-container {
+        padding: 0px 0px 122px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-8a07147 {
+        --padding-block-start: 0px;
+        --padding-block-end: 40px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-d6b4120 img {
+        width: 100%;
+    }
+    .elementor-28 .elementor-element.elementor-element-d6b4120>.elementor-widget-container {
+        padding: 0px 0px 122px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-cbfaa3e {
+        --padding-block-start: 0px;
+        --padding-block-end: 40px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-9276e6b img {
+        width: 100%;
+    }
+    .elementor-28 .elementor-element.elementor-element-9276e6b>.elementor-widget-container {
+        padding: 0px 0px 122px 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-e3d5d15 {
+        --padding-block-start: 0px;
+        --padding-block-end: 0px;
+        --padding-inline-start: 0px;
+        --padding-inline-end: 0px;
+    }
+    .elementor-28 .elementor-element.elementor-element-b077e8d img {
+        width: 100%;
+    }
+    .elementor-28 .elementor-element.elementor-element-b077e8d>.elementor-widget-container {
+        padding: 0px 0px 122px 0px;
+    }
+}

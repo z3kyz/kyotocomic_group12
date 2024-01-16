@@ -1,0 +1,1 @@
+chrome-extension://fheoggkfdfchfphceeifdbepaooicaho/scripts/page_crypto_mining.js
