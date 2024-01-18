@@ -7,6 +7,12 @@ terraform {
   }
 }
 
+resource "aws_ssm_parameter" "kyotocomic" {
+  name  = "kyotocomic"
+  type  = "String"
+  value = "bar"
+}
+
 provider "aws" {
   region = "eu-north-1"
   access_key = "AKIA47CRYKEONLQLQXXA"
