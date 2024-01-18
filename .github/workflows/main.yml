@@ -1,102 +1,54 @@
-name: "Terraform action"
+name: 'Terraform CI/CD'
+
 on:
   push:
     branches:
-      - main
+      - main  # Set to your default branch
   pull_request:
-permissions:
-      id-token: write # This is required for aws oidc connection
-      contents: read # This is required for actions/checkout
-      pull-requests: write # This is required for gh bot to comment PR
-env:
-  TF_LOG: INFO
-  AWS_REGION: ${{ secrets.AWS_REGION }}
+    branches:
+      - main
+
 jobs:
-  deploy:
+  terraform:
+    name: 'Terraform'
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        shell: bash
-        working-directory: .
+    environment: dev
+
+
     steps:
-      - name: Git checkout
-        uses: actions/checkout@v3
+    - name: 'Checkout'
+      uses: actions/checkout@v2
 
-      - name: Configure AWS credentials from AWS account
-        uses: aws-actions/configure-aws-credentials@v1
-        with:
-          role-to-assume: ${{ secrets.AWS_ROLE }}
-          aws-region: ${{ secrets.AWS_REGION }}
-          role-session-name: GitHub-OIDC-TERRAFORM
+    - name: 'Configure AWS Credentials'
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: 'us-east-1'  # Update to your AWS region
 
-      - name: Setup Terraform
-        uses: hashicorp/setup-terraform@v2
-        with:
-          terraform_version: 1.2.5
+    - name: 'Set up Terraform'
+      uses: hashicorp/setup-terraform@v1
+    - name: list files
+      run: |
+        echo "Listing files in $(pwd):"
+        ls
 
-      - name: Terraform fmt
-        id: fmt
-        run: terraform fmt -check
-        continue-on-error: true
+    - name: 'Package Lambda Function'
+      run: |
+        zip -j lambda/lambda_function.zip lambda/index.py 
+    - name: 'Terraform Init'
+      run: terraform init
 
-      - name: Terraform Init
-        id: init
-        env:
-          AWS_BUCKET_NAME: ${{ secrets.AWS_BUCKETNAME }}
-          AWS_BUCKET_KEY_NAME: ${{ secrets.AWS_BUCKET_KEY_NAME }}
-        run: terraform init -backend-config="bucket=${AWS_BUCKET_NAME}" -backend-config="key=${AWS_BUCKET_KEY_NAME}" -backend-config="region=${AWS_REGION}"
+    - name: 'Terraform Format'
+      run: terraform fmt -check
 
-      - name: Terraform Validate
-        id: validate
-        run: terraform validate -no-color
+    - name: 'Terraform Validate'
+      run: terraform validate
 
-      - name: Terraform Plan
-        id: plan
-        run: terraform plan -no-color
-        if: github.event_name == 'pull_request'
-        continue-on-error: true
+    - name: 'Terraform Plan'
+      if: github.event_name == 'pull_request'
+      run: terraform plan
 
-      - uses: actions/github-script@v6
-        if: github.event_name == 'pull_request'
-        env:
-          PLAN: "terraform\n${{ steps.plan.outputs.stdout }}"
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            const output = `#### Terraform Format and Style 🖌\`${{ steps.fmt.outcome }}\`
-            #### Terraform Initialization ⚙️\`${{ steps.init.outcome }}\`
-            #### Terraform Validation 🤖\`${{ steps.validate.outcome }}\`
-            <details><summary>Validation Output</summary>
-
-            \`\`\`\n
-            ${{ steps.validate.outputs.stdout }}
-            \`\`\`
-
-            </details>
-
-            #### Terraform Plan 📖\`${{ steps.plan.outcome }}\`
-
-            <details><summary>Show Plan</summary>
-
-            \`\`\`\n
-            ${process.env.PLAN}
-            \`\`\`
-
-            </details>
-
-            *Pushed by: @${{ github.actor }}, Action: \`${{ github.event_name }}\`*`;
-
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: output
-            })
-
-      - name: Terraform Plan Status
-        if: steps.plan.outcome == 'failure'
-        run: exit 1
-
-      - name: Terraform Apply
-        if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-        run: terraform apply -auto-approve -input=false
+    - name: 'Terraform Apply'
+      if: github.ref == 'refs/heads/main'
+      run: terraform apply -auto-approve
