@@ -44,6 +44,7 @@ resource"local_file" "private_key" {
   filename = var.key_name
 }
 
+
 resource "aws_instance" "public_instance" {
   ami           = "ami-0014ce3e52359afbd"
   instance_type = "t3.micro"
