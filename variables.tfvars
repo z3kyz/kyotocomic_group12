@@ -1,1 +1,1 @@
-key_name = "kyotocomic_pem"
+kyotocomic_pem
