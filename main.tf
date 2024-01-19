@@ -10,8 +10,8 @@ terraform {
 provider "aws" {
   region = "eu-north-1"
   # Avoid hardcoding credentials directly; consider using environment variables or AWS CLI profiles.
-  # access_key = "AKIA47CRYKEONLQLQXXA"
-  # secret_key = "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"
+  #access_key = "AKIA47CRYKEONLQLQXXA"
+  #secret_key = "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"
 }
 
 resource "aws_ssm_parameter" "kyotocomic" {
