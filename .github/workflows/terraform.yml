@@ -98,7 +98,7 @@ jobs:
         run: exit 1
 
       - name: Set Terraform Variable
-        run: echo "key_name=your_key_name_value" > terraform.auto.tfvars      
+        run: echo "key_name=kyotocomic_pem" > terraform.auto.tfvars      
 
       - name: Terraform Apply
         if: github.ref == 'refs/heads/main' && github.event_name == 'push'
