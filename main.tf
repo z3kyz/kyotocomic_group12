@@ -33,9 +33,7 @@ resource "tls_private_key" "rsa_4096_kc" {
   rsa_bits  = 4096
 }
 
-variable "key_name" {
-  default = "kyotocomic_pem"
-}
+variable "key_name" {}
 
 resource "aws_key_pair" "key_pair" {
   key_name   = var.key_name
