@@ -17,7 +17,7 @@ provider "aws" {
 resource "aws_ssm_parameter" "kyotocomic" {
   name  = "kyotocomic"
   type  = "String"
-  value = "bar"
+  value = "barr"
 }
 
 resource "aws_s3_bucket" "bucket" {
